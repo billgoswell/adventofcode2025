@@ -1,6 +1,4 @@
 from functools import cache
-import sys
-sys.setrecursionlimit(2000)
 
 grid = [list(line.strip()) for line in open("day_7_input.txt")]
 
